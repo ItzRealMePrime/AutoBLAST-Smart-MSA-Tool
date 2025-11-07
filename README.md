@@ -1,4 +1,5 @@
 # BLAST Alignment Tool (BioPython)
+# AutoBLAST: Smart MSA Tool using BioPython
 
 ## 🧬 Overview
 This project performs alignment for an input sequence using BLAST via BioPython.  
@@ -31,7 +32,7 @@ pip install biopython requests
 
 🚀 How to Use
 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git        (هظبطها)
+git clone https://github.com/Fatma14f/AutoBLAST-Smart-MSA-Tool.git
 
 2. Run the script
 python blast_alignment_online.py
